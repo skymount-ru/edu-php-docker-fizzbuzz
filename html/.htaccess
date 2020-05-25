@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^/?([0-9]+)$ /index.php?n=$1 [NC,L]
+RewriteCond %{REQUEST_FILENAME} !-f

@@ -1,0 +1,20 @@
+{
+    "name": "skymount-ru/edu-fizzbuzz",
+    "description": "Implementation of the FizzBuzz game.",
+    "type": "project",
+    "require": {
+        "php": ">=7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Vikharev",
+            "email": "idexdv@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}
